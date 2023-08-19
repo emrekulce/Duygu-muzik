@@ -25,8 +25,8 @@ def konusma(text):
 def foto_cek():
     faceCascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
     cap = cv2.VideoCapture(0)
-    cap.set(3,640) # set Width
-    cap.set(4,480) # set Height
+    cap.set(3,640)
+    cap.set(4,480)
 
     durum = False
     while True:
